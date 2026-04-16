@@ -1,0 +1,157 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "timestamp": "20260415_132252",
+  "seed": 42,
+  "num_samples_per_eval": 100,
+  "generation_config": {
+    "max_new_tokens": 2048,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "enable_thinking": false
+  },
+  "results": {
+    "english_gsm8k": {
+      "correct": 86,
+      "total": 100,
+      "accuracy": 86.0,
+      "time_seconds": 1279.5
+    },
+    "indic_native": {
+      "correct": 41,
+      "total": 100,
+      "accuracy": 41.0,
+      "time_seconds": 1678.4,
+      "per_language": {
+        "bn": {
+          "lang_name": "Bengali",
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "gu": {
+          "lang_name": "Gujarati",
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "hi": {
+          "lang_name": "Hindi",
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "kn": {
+          "lang_name": "Kannada",
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "ml": {
+          "lang_name": "Malayalam",
+          "correct": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "mr": {
+          "lang_name": "Marathi",
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "or": {
+          "lang_name": "Odia",
+          "correct": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "pa": {
+          "lang_name": "Punjabi",
+          "correct": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "ta": {
+          "lang_name": "Tamil",
+          "correct": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "te": {
+          "lang_name": "Telugu",
+          "correct": 5,
+          "total": 10,
+          "accuracy": 50.0
+        }
+      }
+    },
+    "indic_romanized": {
+      "correct": 7,
+      "total": 100,
+      "accuracy": 7.0,
+      "time_seconds": 2698.7,
+      "per_language": {
+        "bn_roman": {
+          "lang_name": "Bengali",
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "gu_roman": {
+          "lang_name": "Gujarati",
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "hi_roman": {
+          "lang_name": "Hindi",
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "kn_roman": {
+          "lang_name": "Kannada",
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "ml_roman": {
+          "lang_name": "Malayalam",
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "mr_roman": {
+          "lang_name": "Marathi",
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "or_roman": {
+          "lang_name": "Odia",
+          "correct": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "pa_roman": {
+          "lang_name": "Punjabi",
+          "correct": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "ta_roman": {
+          "lang_name": "Tamil",
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "te_roman": {
+          "lang_name": "Telugu",
+          "correct": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      }
+    }
+  }
+}
