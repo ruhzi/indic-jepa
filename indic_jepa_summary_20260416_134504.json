@@ -1,0 +1,38 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "method": "Indic-JEPA composite loss SFT",
+  "language": "Punjabi (pa)",
+  "timestamp": "20260416_134504",
+  "config": {
+    "seed": 42,
+    "lr": 2e-05,
+    "epochs": 2,
+    "grad_accum": 8,
+    "max_length": 1024,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "gamma_ce": 1.0,
+    "lambda_jepa": 0.1,
+    "num_train": 1000,
+    "num_test": 100,
+    "forward_passes_per_sample": 2
+  },
+  "cosine_similarity": {
+    "pre_training": {
+      "mean": 0.6811,
+      "std": 0.0058
+    },
+    "post_training": {
+      "mean": 0.9696,
+      "std": 0.001
+    },
+    "delta_mean": 0.2885
+  },
+  "eval": {
+    "correct": 31,
+    "total": 100,
+    "accuracy": 31.0,
+    "time_s": 1881.1
+  },
+  "training_time_s": 2393.1
+}
